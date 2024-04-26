@@ -1,3 +1,8 @@
 # hypertune-test
-Run the project on localhost http://127.0.0.1:8000/ which will generate the response of help command configured on hypertune.
-Environment is by default staging
+To setup:
+1. create python virtual environment with python 3.11
+    python3.11 -m venv env
+2. install requirements
+    pip install -r requirements.txt
+3. use fastapi to run the server
+    uvicorn run:app --reload
